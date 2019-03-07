@@ -1,7 +1,7 @@
 import Thing
 
-Desk = Thing(1,"Dies ist ein Schreibtisch")
-Chair = Thing(2,"Dies ist ein Stuhl.")
+desk = Thing("Dies ist ein Schreibtisch",1)
+chair = Thing("Dies ist ein Stuhl.",2)
 
-print(Chair.description)
-print(Desk.ID)
+print(chair.description)
+print(desk.ID)
