@@ -1,1 +1,1 @@
-from Thing import Thing
+import Parser
