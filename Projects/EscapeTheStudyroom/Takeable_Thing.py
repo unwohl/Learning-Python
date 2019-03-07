@@ -6,4 +6,4 @@ class Takeable_Thing(Useable_Thing):
         self.take_msg = arg4
         
     def take(self):
-        return
+        print(self.take_msg)

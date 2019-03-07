@@ -6,4 +6,4 @@ class Useable_Thing(Thing):
         self.use_msg = arg3
     
     def use(self):
-        return
+        print(self.use_msg)
