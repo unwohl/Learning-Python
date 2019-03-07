@@ -1,3 +1,3 @@
-file = open("1snfcf.jpg","r")
-for i in file.read():
-    print(i)
+for i in range(1000):
+    file = open(str(i)+".txt","w")
+    file.close()
