@@ -3,13 +3,15 @@ pattern = ("examine","use","take","combine")
 abort = "Wrong input!"
 abort2 = "Too many words in input!"
 def getInput():
-    input(":",_input)
+    _input = input(":")
     inputs = _input.split(" ")
-    if not inputs[0] in pattern 
+    print(inputs)
+    if not inputs[0] in pattern:
         print(abort)
-        if len(inputs) > 3:
+        if len(inputs) > 3 or len(inputs) < 2:
             print(abort2)
-        return inputs
+        return
+    return inputs
     
     
 def examine():
