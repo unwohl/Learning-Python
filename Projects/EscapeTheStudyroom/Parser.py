@@ -13,17 +13,4 @@ def getInput():
         return
     return inputs
     
-    
-def examine():
-    print("examine")
-
-def use():
-    print("use")
-
-def take():
-    print("take")
-
-def combine():
-    print("combine")
-
 getInput()
