@@ -1,10 +1,16 @@
-from Thing import Thing
-import re
+pattern = ("examine","use","take","combine")
 
-pattern = r"examineusetakecombine"
+default_input = "examine Room"
 
-@staticmethod
-def examine(argument):
+abort = "Wrong input!"
+abort2 = "Too many words in input!"
+def getInput():
+    input(":",_input)
+    inputs = _input.split(" ")
+    if not inputs[0] in pattern 
+        print(abort)
+        if len(inputs) > 3:
+            print(abort2)
+        return inputs
     
-
-    if re.match()
+    
