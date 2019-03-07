@@ -17,5 +17,5 @@ for item in range(Items):
     Items[item]
 
 while not game_ended:
-    Parser.getInput()
+    _Input = Parser.getInput()
 
