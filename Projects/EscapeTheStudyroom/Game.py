@@ -6,16 +6,12 @@ game_ended = False
 
 inventory = {}
 
+nput = {}
+
 roomID = 0
 
 Rooms = open("Rooms.txt","r")
 
-for r in Rooms:
-    r = Room
-
-for item in range(Items):
-    Items[item]
-
 while not game_ended:
-    _Input = Parser.getInput()
-
+    nput = Parser.getInput()
+    print (nput)
