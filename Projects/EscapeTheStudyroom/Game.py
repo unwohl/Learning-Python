@@ -1,5 +1,6 @@
 from Thing import Thing
-from Room import Room 
+from Room import Room
+import Parser
 
 game_ended = False
 
@@ -16,5 +17,5 @@ for item in range(Items):
     Items[item]
 
 while not game_ended:
-    //parserinpt
+    Parser.getInput()
 
