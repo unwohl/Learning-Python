@@ -1,7 +1,7 @@
 package Items;
 
 public class Thing {
-    int ThingCount = 0;
+    public static int ThingCount = 0;
 
     String _description = "No description available...";
     int _ID = 0;
