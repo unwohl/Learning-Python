@@ -1,9 +1,8 @@
 import Items.*;
 
-public class Main {
-    public void main(){
+public class Game {
+    public static void main(String[] args){
         Thing shelf = new Thing();
         UseableThing drawer = new UseableThing();
-        system.out.println(Thing.ThingCount);
     }
 }
